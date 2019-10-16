@@ -30,7 +30,7 @@ public class GameController : MonoBehaviour {
 		
 		score = 0;
 		minScore = 0;
-		maxScore = 100;
+		maxScore = 10000;
 		// timer.text = Countdown.ToString("");
 		scoreText.text = score.ToString ("");
 		life = 3;
@@ -46,9 +46,9 @@ public class GameController : MonoBehaviour {
 
 		lifePanel.UpdateLife (life);
 
-		if (life > 0 && score >= 1000){}
+		if (life > 0 && score >= maxScore){
 			ChangeScene (nextScene);
-
+		}
 	}
 
 	void ChangeScene(string sceneName){
