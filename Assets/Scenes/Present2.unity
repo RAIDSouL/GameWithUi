@@ -1743,7 +1743,7 @@ MonoBehaviour:
   lifePanel: {fileID: 1230654436}
   hpBar: {fileID: 158599842}
   currentScene: Present
-  nextScene: Present1
+  nextScene: Present2
   Countdown: 20
 --- !u!1 &1186885231
 GameObject:
@@ -2474,7 +2474,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1688553964}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.00843586, y: 1.1475893, z: 3.2231655}
+  m_LocalPosition: {x: 0.00843586, y: -4.98, z: 3.2231655}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1570089438}
