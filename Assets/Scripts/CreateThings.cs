@@ -34,8 +34,8 @@ public class CreateThings : MonoBehaviour
             GameObject clone = Instantiate(ball,spawnPosition,Quaternion.identity);
             if (force)
                 clone.transform.GetComponent<Rigidbody>().AddForce(transform.up * 1000f);
-
             yield return new WaitForSeconds(delayTime);
+
         }
     }
 }
