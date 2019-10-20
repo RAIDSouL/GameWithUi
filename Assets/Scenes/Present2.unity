@@ -563,7 +563,8 @@ MonoBehaviour:
   yellowBall: {fileID: 6704679380563160143, guid: 935fd68477b185b45a591f97e86a2656,
     type: 3}
   randomParam: 0.2
-  delayTime: 0.5
+  delayTime: 2
+  force: 1
   Light1: {fileID: 1570089436}
 --- !u!114 &321630511
 MonoBehaviour:
@@ -572,7 +573,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 321630507}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ac6c919506af6f94d8686c5f1a9a1610, type: 3}
   m_Name: 
@@ -582,6 +583,7 @@ MonoBehaviour:
     type: 3}
   randomParam: 0.2
   delayTime: 2
+  force: 1
   Light1: {fileID: 436838475}
 --- !u!114 &321630512
 MonoBehaviour:
@@ -590,7 +592,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 321630507}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ac6c919506af6f94d8686c5f1a9a1610, type: 3}
   m_Name: 
@@ -600,6 +602,7 @@ MonoBehaviour:
     type: 3}
   randomParam: 0.2
   delayTime: 1
+  force: 1
   Light1: {fileID: 1876825659}
 --- !u!1 &411074805
 GameObject:
