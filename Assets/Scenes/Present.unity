@@ -1608,7 +1608,7 @@ MonoBehaviour:
   timer: {fileID: 665731965}
   lifePanel: {fileID: 1230654436}
   currentScene: Present
-  nextScene: Present1
+  nextScene: Present
   Countdown: 60
 --- !u!1 &1186885231
 GameObject:
