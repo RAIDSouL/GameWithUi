@@ -22,7 +22,7 @@ public class CreateThings : MonoBehaviour
     // Update is called once per frame
     IEnumerator GenBall(float delayTime){
         while(true){
-            spawnPosition.Set(Light1.transform.position.x,Light1.transform.position.y,Light1.transform.position.z);
+            // spawnPosition.Set(Light1.transform.position.x,Light1.transform.position.y,Light1.transform.position.z);
             
             float rand_num = Random.value;
             if (rand_num < randomParam){
@@ -31,9 +31,9 @@ public class CreateThings : MonoBehaviour
             else{
                 ball = yellowBall;
             }
-            GameObject clone = Instantiate(ball,spawnPosition,Quaternion.identity);
+            GameObject clone = Instantiate(ball,Light1.transform.position,Light1.transform.localRotation);
             if (force)
-                clone.transform.GetComponent<Rigidbody>().AddForce(transform.up * 1000f);
+                clone.transform.GetComponent<Rigidbody>().AddForce(clone.transform.forward * 1000f);
             yield return new WaitForSeconds(delayTime);
 
         }
